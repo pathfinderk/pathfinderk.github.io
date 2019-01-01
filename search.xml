@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[程序设计语言原理复习（1）]]></title>
-    <url>%2F2019%2F01%2F01%2Ffianl_tset%20review1%2F</url>
-    <content type="text"><![CDATA[Chapter 1: Preliminaries(基本概念)Motivation 1.增进思想表达的能力 2.增强选择适用语言的能力 3.增强学习新的语言的呢能力 4.更好的理解现实的重要性 5.更好的使用已知语言 6.促进整个计算机科学的发展 Programming Domains(领域) 可以用科学，商务，人工智能，程序设计，万维网语言 Language Evaluation Criteria(语言评估标准)//重点 1.可读性 包括简单整体性 正交性 控制语句 数据类型与数据结构 语法设计 其中正交性：指只用该语言的一组相对少量的基本结构，经过相对少的结合步骤，就可构成该语言的控制结构和数据结构。而且，它的基本结构的任何组合都是合法和有意义的 2.可写性 简单性与正交性 支持抽象 表达性 3.可靠性 类型检测 异常处理 使用别名 可读性与可写性 4.代价 Influences on Language Design(影响语言设计的因素)//重点 1.计算机体系结构 2.程序设计方法 Language Categories(语言分类) 1.Imperative(命令式) -Central features are variables, assignment statements, and iteration -C, Pascal 2.Functional -Main means of making computations is by applying functions to given parameters -LISP, Scheme 3.Logic(逻辑式) -Rule-based -Rules are specified in no special order -Prolog 4.Object-oriented(面向对象) -Encapsulate data objects with processing Inheritance and dynamic type binding Grew out of imperative languages -C++, Java Chapter 2: Evolution of the major programming languagesThe IBM 704 and FORTRAN 概要：Designed for the new IBM 704, which had index registers（索引寄存器）and floating point hardware（浮点硬件) Environment of development -Computers were small and unreliable（计算机很小，不可靠） -Applications were scientific（应用是科学的） -No programming methodology or tools（没有编程方法或工具） -Machine efficiency was most important（机器效率最重要） The First Step Toward Sophistication: ALGOL 60]]></content>
-      <tags>
-        <tag>Final Review</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>程序设计语言原理复习（1）</title>
+      <link href="/2019/01/01/fianl_tset%20review2/"/>
+      <url>/2019/01/01/fianl_tset%20review2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Chapter-1-Preliminaries-基本概念"><a href="#Chapter-1-Preliminaries-基本概念" class="headerlink" title="Chapter 1: Preliminaries(基本概念)"></a>Chapter 1: Preliminaries(基本概念)</h1><h2 id="Motivation"><a href="#Motivation" class="headerlink" title="Motivation"></a>Motivation</h2><p>  1.增进思想表达的能力<br>  2.增强选择适用语言的能力<br>  3.增强学习新的语言的呢能力<br>  4.更好的理解现实的重要性<br>  5.更好的使用已知语言<br>  6.促进整个计算机科学的发展</p><h2 id="Programming-Domains-领域"><a href="#Programming-Domains-领域" class="headerlink" title="Programming Domains(领域)"></a>Programming Domains(领域)</h2><p> 可以用科学，商务，人工智能，程序设计，万维网语言</p><h2 id="Language-Evaluation-Criteria-语言评估标准-重点"><a href="#Language-Evaluation-Criteria-语言评估标准-重点" class="headerlink" title="Language Evaluation Criteria(语言评估标准)//重点"></a>Language Evaluation Criteria(语言评估标准)//重点</h2><p> 1.可读性  包括<code>简单整体性</code> <code>正交性</code> <code>控制语句</code> <code>数据类型与数据结构</code> <code>语法设计</code>  其中正交性：指只用该语言的一组相对少量的基本结构，经过相对少的结合步骤，就可构成该语言的控制结构和数据结构。而且，它的基本结构的任何组合都是合法和有意义的<br> 2.可写性 <code>简单性与正交性</code>  <code>支持抽象</code>  <code>表达性</code><br> 3.可靠性 <code>类型检测</code>  <code>异常处理</code>  <code>使用别名</code> <code>可读性与可写性</code><br> 4.代价 </p><h2 id="Influences-on-Language-Design-影响语言设计的因素-重点"><a href="#Influences-on-Language-Design-影响语言设计的因素-重点" class="headerlink" title="Influences on Language Design(影响语言设计的因素)//重点"></a>Influences on Language Design(影响语言设计的因素)//重点</h2><p>  1.计算机体系结构<br>  2.程序设计方法</p><h2 id="Language-Categories-语言分类"><a href="#Language-Categories-语言分类" class="headerlink" title="Language Categories(语言分类)"></a>Language Categories(语言分类)</h2><p>  1.Imperative(命令式)<br>   -Central features are variables, assignment statements, and iteration<br>   -C, Pascal<br>  2.Functional<br>   -Main means of making computations is by applying functions to given parameters<br>   -LISP, Scheme<br>  3.Logic(逻辑式)<br>   -Rule-based<br>   -Rules are specified in no special order<br>   -Prolog<br>  4.Object-oriented(面向对象)<br>   -Encapsulate data objects with processing<br>   Inheritance and dynamic type binding<br>   Grew out of imperative languages<br>   -C++, Java</p><h1 id="Chapter-2-Evolution-of-the-major-programming-languages"><a href="#Chapter-2-Evolution-of-the-major-programming-languages" class="headerlink" title="Chapter 2: Evolution of the major programming languages"></a>Chapter 2: Evolution of the major programming languages</h1><h2 id="The-IBM-704-and-FORTRAN"><a href="#The-IBM-704-and-FORTRAN" class="headerlink" title="The IBM 704 and FORTRAN"></a>The IBM 704 and FORTRAN</h2><p> 概要：Designed for the new IBM 704, which had index registers（索引寄存器）and floating point hardware（浮点硬件)<br>   Environment of development<br>   -Computers were small and unreliable（计算机很小，不可靠）<br>   -Applications were scientific（应用是科学的）<br>   -No programming methodology or tools（没有编程方法或工具）<br>   -Machine efficiency was most important（机器效率最重要）</p><h2 id="The-First-Step-Toward-Sophistication-ALGOL-60"><a href="#The-First-Step-Toward-Sophistication-ALGOL-60" class="headerlink" title="The First Step Toward Sophistication: ALGOL 60"></a>The First Step Toward Sophistication: ALGOL 60</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Final Review </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
