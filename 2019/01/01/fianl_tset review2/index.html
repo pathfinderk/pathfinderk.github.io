@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="Is you">
 <meta property="og:description" content="Chapter 1: Preliminaries(基本概念)Motivation  1.增进思想表达的能力  2.增强选择适用语言的能力  3.增强学习新的语言的呢能力  4.更好的理解现实的重要性  5.更好的使用已知语言  6.促进整个计算机科学的发展 Programming Domains(领域) 可以用科学，商务，人工智能，程序设计，万维网语言 Language Evaluation Cr">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-01T03:17:32.597Z">
+<meta property="og:updated_time" content="2019-01-02T03:21:52.731Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="程序设计语言原理复习（1）">
 <meta name="twitter:description" content="Chapter 1: Preliminaries(基本概念)Motivation  1.增进思想表达的能力  2.增强选择适用语言的能力  3.增强学习新的语言的呢能力  4.更好的理解现实的重要性  5.更好的使用已知语言  6.促进整个计算机科学的发展 Programming Domains(领域) 可以用科学，商务，人工智能，程序设计，万维网语言 Language Evaluation Cr">
@@ -393,7 +393,11 @@
 <h2 id="Influences-on-Language-Design-影响语言设计的因素-重点"><a href="#Influences-on-Language-Design-影响语言设计的因素-重点" class="headerlink" title="Influences on Language Design(影响语言设计的因素)//重点"></a>Influences on Language Design(影响语言设计的因素)//重点</h2><p>  1.计算机体系结构<br>  2.程序设计方法</p>
 <h2 id="Language-Categories-语言分类"><a href="#Language-Categories-语言分类" class="headerlink" title="Language Categories(语言分类)"></a>Language Categories(语言分类)</h2><p>  1.Imperative(命令式)<br>   -Central features are variables, assignment statements, and iteration<br>   -C, Pascal<br>  2.Functional<br>   -Main means of making computations is by applying functions to given parameters<br>   -LISP, Scheme<br>  3.Logic(逻辑式)<br>   -Rule-based<br>   -Rules are specified in no special order<br>   -Prolog<br>  4.Object-oriented(面向对象)<br>   -Encapsulate data objects with processing<br>   Inheritance and dynamic type binding<br>   Grew out of imperative languages<br>   -C++, Java</p>
 <h1 id="Chapter-2-Evolution-of-the-major-programming-languages"><a href="#Chapter-2-Evolution-of-the-major-programming-languages" class="headerlink" title="Chapter 2: Evolution of the major programming languages"></a>Chapter 2: Evolution of the major programming languages</h1><h2 id="The-IBM-704-and-FORTRAN"><a href="#The-IBM-704-and-FORTRAN" class="headerlink" title="The IBM 704 and FORTRAN"></a>The IBM 704 and FORTRAN</h2><p> 概要：Designed for the new IBM 704, which had index registers（索引寄存器）and floating point hardware（浮点硬件)<br>   Environment of development<br>   -Computers were small and unreliable（计算机很小，不可靠）<br>   -Applications were scientific（应用是科学的）<br>   -No programming methodology or tools（没有编程方法或工具）<br>   -Machine efficiency was most important（机器效率最重要）</p>
-<h2 id="The-First-Step-Toward-Sophistication-ALGOL-60"><a href="#The-First-Step-Toward-Sophistication-ALGOL-60" class="headerlink" title="The First Step Toward Sophistication: ALGOL 60"></a>The First Step Toward Sophistication: ALGOL 60</h2>
+<h2 id="The-First-Step-Toward-Sophistication-ALGOL-60"><a href="#The-First-Step-Toward-Sophistication-ALGOL-60" class="headerlink" title="The First Step Toward Sophistication: ALGOL 60"></a>The First Step Toward Sophistication: ALGOL 60</h2><p>  new feature:<br>    Block structure (local scope)块结构<br>    Two parameter passing methods (pass by value and pass by name)两种不同方式经行子程序的参数传递<br>    Subprogram recursion 递归<br>    Stack-dynamic arrays 栈动态数组<br>    Still no I/O and no string handling缺乏输入与输出 导致ALGOL无法被广泛应用</p>
+<h2 id="The-Beginning-of-Data-Abstraction-SIMULA-67"><a href="#The-Beginning-of-Data-Abstraction-SIMULA-67" class="headerlink" title="The Beginning of Data Abstraction: SIMULA 67"></a>The Beginning of Data Abstraction: SIMULA 67</h2><p>  Designed primarily for system simulation(仿真) in Norway by Nygaard and Dahl<br>  Based on ALGOL 60 and SIMULA I<br>  Primary Contributions：<br>  Co-routines(协同程序) - a kind of subprogram<br>  Implemented in a structure called a class<br>  Classes are the basis for data abstraction<br>  Classes are structures that include both local data and functionality</p>
+<h2 id="History’s-Largest-Design-Effort-Ada-最大规模的语言设计"><a href="#History’s-Largest-Design-Effort-Ada-最大规模的语言设计" class="headerlink" title="History’s Largest Design Effort: Ada 最大规模的语言设计"></a>History’s Largest Design Effort: Ada 最大规模的语言设计</h2><p>  Contributions<br> Packages - support for data abstraction提供数据的封装<br> Exception handling - elaborate (详细描述)异常处理机制<br> Generic program units程序单元通用<br> Concurrency - through the tasking model 提供并发</p>
+<h2 id="Object-Oriented-Programming-Smalltalk-面向对象的程序设计"><a href="#Object-Oriented-Programming-Smalltalk-面向对象的程序设计" class="headerlink" title="Object-Oriented Programming: Smalltalk 面向对象的程序设计"></a>Object-Oriented Programming: Smalltalk 面向对象的程序设计</h2><p> First full implementation of an object-oriented language (data abstraction, inheritance, and dynamic type binding)首先完全实现面向对象的语言（数据抽象，继承和动态类型绑定）</p>
+
       
     </div>
     
@@ -419,6 +423,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/01/02/程序语言设计原理复习二/" rel="prev" title="程序设计语言原理复习（2）">
+                程序设计语言原理复习（2） <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -492,7 +512,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -545,7 +565,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Chapter-1-Preliminaries-基本概念"><span class="nav-number">1.</span> <span class="nav-text">Chapter 1: Preliminaries(基本概念)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Motivation"><span class="nav-number">1.1.</span> <span class="nav-text">Motivation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Programming-Domains-领域"><span class="nav-number">1.2.</span> <span class="nav-text">Programming Domains(领域)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Language-Evaluation-Criteria-语言评估标准-重点"><span class="nav-number">1.3.</span> <span class="nav-text">Language Evaluation Criteria(语言评估标准)//重点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Influences-on-Language-Design-影响语言设计的因素-重点"><span class="nav-number">1.4.</span> <span class="nav-text">Influences on Language Design(影响语言设计的因素)//重点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Language-Categories-语言分类"><span class="nav-number">1.5.</span> <span class="nav-text">Language Categories(语言分类)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Chapter-2-Evolution-of-the-major-programming-languages"><span class="nav-number">2.</span> <span class="nav-text">Chapter 2: Evolution of the major programming languages</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#The-IBM-704-and-FORTRAN"><span class="nav-number">2.1.</span> <span class="nav-text">The IBM 704 and FORTRAN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#The-First-Step-Toward-Sophistication-ALGOL-60"><span class="nav-number">2.2.</span> <span class="nav-text">The First Step Toward Sophistication: ALGOL 60</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Chapter-1-Preliminaries-基本概念"><span class="nav-number">1.</span> <span class="nav-text">Chapter 1: Preliminaries(基本概念)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Motivation"><span class="nav-number">1.1.</span> <span class="nav-text">Motivation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Programming-Domains-领域"><span class="nav-number">1.2.</span> <span class="nav-text">Programming Domains(领域)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Language-Evaluation-Criteria-语言评估标准-重点"><span class="nav-number">1.3.</span> <span class="nav-text">Language Evaluation Criteria(语言评估标准)//重点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Influences-on-Language-Design-影响语言设计的因素-重点"><span class="nav-number">1.4.</span> <span class="nav-text">Influences on Language Design(影响语言设计的因素)//重点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Language-Categories-语言分类"><span class="nav-number">1.5.</span> <span class="nav-text">Language Categories(语言分类)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Chapter-2-Evolution-of-the-major-programming-languages"><span class="nav-number">2.</span> <span class="nav-text">Chapter 2: Evolution of the major programming languages</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#The-IBM-704-and-FORTRAN"><span class="nav-number">2.1.</span> <span class="nav-text">The IBM 704 and FORTRAN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#The-First-Step-Toward-Sophistication-ALGOL-60"><span class="nav-number">2.2.</span> <span class="nav-text">The First Step Toward Sophistication: ALGOL 60</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#The-Beginning-of-Data-Abstraction-SIMULA-67"><span class="nav-number">2.3.</span> <span class="nav-text">The Beginning of Data Abstraction: SIMULA 67</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#History’s-Largest-Design-Effort-Ada-最大规模的语言设计"><span class="nav-number">2.4.</span> <span class="nav-text">History’s Largest Design Effort: Ada 最大规模的语言设计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Object-Oriented-Programming-Smalltalk-面向对象的程序设计"><span class="nav-number">2.5.</span> <span class="nav-text">Object-Oriented Programming: Smalltalk 面向对象的程序设计</span></a></li></ol></li></ol></div>
             
 
           </div>
