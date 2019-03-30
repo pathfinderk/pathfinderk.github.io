@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pathfinderk.github.io/"/>
-  <updated>2019-01-02T03:28:51.997Z</updated>
+  <updated>2019-03-30T13:23:20.926Z</updated>
   <id>http://pathfinderk.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML</title>
+    <link href="http://pathfinderk.github.io/2019/03/30/HTML%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/"/>
+    <id>http://pathfinderk.github.io/2019/03/30/HTML学习（1）/</id>
+    <published>2019-03-30T13:14:33.226Z</published>
+    <updated>2019-03-30T13:23:20.926Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;HTML简介&quot;&gt;&lt;a href=&quot;#HTML简介&quot; class=&quot;headerlink&quot; title=&quot;HTML简介&quot;&gt;&lt;/a&gt;HTML简介&lt;/h1&gt;&lt;h2 id=&quot;HTML一些特征&quot;&gt;&lt;a href=&quot;#HTML一些特征&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="HTML学习（1）" scheme="http://pathfinderk.github.io/tags/HTML%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/"/>
+    
+  </entry>
   
   <entry>
     <title>程序设计语言原理复习（2）</title>
